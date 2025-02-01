@@ -1,40 +1,24 @@
-# Python
-__pycache__/
-*.py[cod]
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Environment
-.env
-venv/
-.venv/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS
+node_modules
 .DS_Store
-Thumbs.db
-
-# Project specific
-logs/
-data/
-!data/.gitkeep
+.tmp
+tmp
+dist
+coverage
+npm-debug.log*
+yarn.lock
+google-generated-credentials.json
+_START_PACKAGE
+.env
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.default.json
+.idea
+nodelinter.config.json
+**/package-lock.json
+packages/**/.turbo
+.turbo
+*.tsbuildinfo
+*.swp
+CHANGELOG-*.md
+*.mdx
+build-storybook.log
